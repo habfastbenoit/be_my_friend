@@ -1,0 +1,90 @@
+@import url("components/banner.css");
+@import url("components/button.css");
+
+
+.icons {
+  margin: 75px 0px 100px 0px;
+}
+
+.icon-title {
+  margin-bottom: 20px;
+  font-family: 'Varela Round', sans-serif;
+  font-style: italic;
+  color: #090909;
+}
+
+.icon {
+  width: 200px;
+}
+
+.stats {
+  font-size: 150px;
+  background: #FF5F6D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.stats-explanation {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 17px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #FF5F6D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  height: 50px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+.flex {
+  display:flex;
+}
+
+.menu {
+  font-family: 'Varela Round', sans-serif;
+  width: 400px;
+  background-color: white;
+}
+
+.menu-title {
+  background-color: #383737;
+  color: white;
+  height : 100px;
+  padding-top: 40px;
+  margin-bottom: 35px;
+  text-align: center;
+
+}
+
+.menu-title h2 {
+  font-size: 25px;
+  margin: 0px;
+
+}
+
+.menu-options {
+  padding-left: 40px;
+}
+
+.menu-options p {
+  padding-bottom: 20px;
+}
+
+
