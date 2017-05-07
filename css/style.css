@@ -1,6 +1,18 @@
 @import url("components/banner.css");
 @import url("components/button.css");
+@import url("components/avatar.css");
 
+#login {
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+#login:hover {
+  text-decoration: underline;
+}
 
 .icons {
   margin: 75px 0px 100px 0px;
